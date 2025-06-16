@@ -1,0 +1,120 @@
+@font-face {
+    font-family: norse;
+    src: url(assets/Norse-Bold.otf)
+}
+
+body {
+    margin: auto;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #242433;
+}
+
+.body-container {
+    display: flex;
+    height: 100vh;
+}
+
+.left-container {
+    width: 32%;
+    background-image: url(assets/halie-west-25xggax4bSA-unsplash.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.logo {
+    height: 10%;
+    padding: 1rem 0rem 1rem 0rem;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: hsla(0 0% 0% / 0.46);
+    display: flex;
+    margin-top: 45%;
+}
+
+.logo-image {
+    height: 100%;
+}
+
+.logo-text {
+    color: white;
+    font-family: norse;
+    font-size: 3rem;
+}
+
+.photo-credit {
+    color: white;
+    text-align: center;
+    align-self: flex-end;
+    justify-self: center;
+    margin-top: auto;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.right-container {
+    width: 68%;
+    background-color: #F9FAFB;
+    gap: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form-intro, .form-confirm {
+    padding-left: 2rem;
+    padding-right: 5rem;
+}
+
+.form-intro {
+    font-weight: bold;
+}
+
+.form-container {
+    background-color: white;
+    box-shadow: 0rem 0.1rem 0.4rem hsla(0 0% 0% / 0.24);
+    padding: 1rem 0rem 2rem 2rem;
+    font-size: 0.8rem;
+    color: #313A47;
+}
+
+.form {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.form label {
+    font-weight: bold;
+    letter-spacing: 0.06rem;
+}
+
+.form input {
+    border: 0.15rem solid #EEF0F2;
+    margin-top: 0.2rem;
+    border-radius: 0.2rem;
+    outline: none;
+}
+
+.form input:focus {
+    border: 0.15rem solid #4D74E0;
+    box-shadow: 0rem 0.1rem 0.4rem hsla(0 0% 0% / 0.24);
+}
+
+.form input.required {
+    border: 0.15rem solid #C74A4A;
+}
+
+.create-button {
+    background-color: #586C46;
+    padding: 0.5rem 2rem;
+    border: none;
+    box-shadow: 0rem 0.1rem 0.4rem hsla(0 0% 0% / 0.24);
+    color: white;
+    font-weight: 600;
+    border-radius: 0.4rem;
+}
