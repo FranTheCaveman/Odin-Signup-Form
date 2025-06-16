@@ -24,6 +24,10 @@ body {
     flex-direction: column;
 }
 
+.left-container a {
+    color: white;
+}
+
 .logo {
     height: 10%;
     padding: 1rem 0rem 1rem 0rem;
@@ -105,8 +109,18 @@ body {
     box-shadow: 0rem 0.1rem 0.4rem hsla(0 0% 0% / 0.24);
 }
 
-.form input.required {
+.form input:invalid {
     border: 0.15rem solid #C74A4A;
+}
+
+.form-confirm a {
+    font-weight: bold;
+    color: #586C46;
+    text-decoration: none;
+}
+
+.form-confirm a:hover {
+    cursor: pointer;
 }
 
 .create-button {
